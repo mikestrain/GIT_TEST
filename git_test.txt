@@ -1,1 +1,23 @@
-hello
+hello modified!
+
+git init
+
+git add git_test.txt
+
+git commit -m "this is the message to add for the first commit"
+
+# when you do git init, it assumes that you are the master.
+# 1 file changed, 1 insertion, 1 modification, etc.
+# 755ad85 (unique number for this check in)
+
+git remote add origin https://github.com/mikestrain/GIT_TEST.git
+
+git push -u origin master
+
+# to do this without github, you can push to a server with an ip address
+
+git add .
+
+git status
+
+hello again
